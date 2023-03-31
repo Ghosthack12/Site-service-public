@@ -1,0 +1,341 @@
+html{
+      overflow-x:hidden ;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      line-height: 1.5;
+      font-size: 15px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+    
+
+#im1{
+    margin-top:2px;     
+}
+
+.service{
+    text-align: justify;
+    margin-left: 247px;
+    margin-top: -80px;
+    font-size: 30px;
+        
+}
+
+.p{
+         margin-left: 192px;
+         margin-top: -13px; 
+}
+
+.bande{
+       margin-left: 100px;
+}
+
+.bande1 .p1{
+    text-align: right;
+    margin-right: 195px;
+    margin-top: -41px;
+
+}
+
+.flag{
+       margin-left: 1232px;
+       display: flex;
+       margin-top: -62px;
+
+}
+
+nav{
+    width: 200%;
+    display: flex;
+    align-items: center;
+    padding: 29px 232px;
+    margin-left: -8px;
+    margin-top: 6px;
+    background-color: #002a40;
+
+}
+
+.navlinks a{ 
+    margin: 0px 20px;
+    word-spacing: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    display: inline-block;
+    position: relative;
+    transition: background-color .3s;
+    cursor: pointer;
+    list-style-type: none;
+    text-decoration: none;
+
+}
+.navlinks a:hover{ 
+                  color: grey;
+    
+}
+
+
+
+
+.navlinks a ::after {
+                     content:"" ;
+                     display: block;
+                     position: absolute;
+                     bottom: -3px;
+                     width: 100px;
+                     height: 1px;
+                    transform: scaleX(0);
+                    transform-origin: right;
+                    background: white; 
+                    transition: transform 0.3s ease-out;
+                    
+
+
+}
+
+.navlinks a:hover::after {
+                          transform: scaleX(1); 
+                          
+}
+
+nav .navlinks a .active{
+                         background: #1a4053;
+                         color: white;
+                         display: inline-block;
+                         
+}
+
+.container{
+    background-color: #dddcdc;
+    height: 79px;
+    margin: 0px;
+    position: relative;
+    top: -16px;
+    bottom: 15px;
+    padding: 0%;
+    margin-left: -9px;
+    margin-right: -9px;
+}
+
+.rech{
+    text-align: center;
+    margin-top: 15px;
+    position: relative;
+    top: 15px;
+}
+
+.rech1{
+    height: 38px;
+    width: 437px;
+    border-radius: 7px;
+}
+.button{
+    height: 36px;
+    background-color: #448AFF;
+    width: 140px;
+    position: absolute;
+    margin-left: 934Px;
+    margin-top: -22px;
+    border-radius: 7px;
+
+}
+
+.sect2{
+    text-align: center;
+    margin-top: 100px;
+}
+.s1{
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana,sans-serif;;
+}
+.s2{
+    font-family: sans-serif;
+}
+
+.align{
+    display: flex;
+    gap: 40px;
+    position: relative;
+    top: 50px;
+    margin-left: 90px;
+    margin-right: 90px;
+    text-align: center;
+}
+.une{
+    width: 450px;
+    box-shadow: 0px 2px 2px 2px rgb(182, 176, 176);
+    border-radius: 1px;
+}
+.deux{
+    width: 450px;
+    box-shadow: 0px 2px 2px 2px rgb(182, 176, 176);
+    border-radius: 1px;
+}
+.trois{
+    width: 450px;
+    box-shadow: 0px 2px 2px 2px rgb(182, 176, 176);
+    border-radius: 1px;
+}
+.quatre{
+    width: 450px;
+    box-shadow: 0px 2px 2px 2px rgb(182, 176, 176);
+    border-radius: 1px;
+    
+}
+section .align div:hover{
+    background-color: rgb(63, 112, 248);
+    color: #dddcdc;
+    font-weight: bold;
+    border-radius: 3px;
+    box-shadow: 0px 4px 4px 4px rgb(149, 146, 153);
+}
+
+.button2{
+    position: relative;
+    top: 80px;
+    margin-left: 601px;
+    width: 200px;
+    height: 40px;
+    background-color: #002a40;
+    border-radius: 5px;
+    color: #dddcdc;
+}
+.center{
+    text-align: center;
+    font-size: 20px;
+}
+.center1{
+    font-size: 45px;
+}
+.Rectangle6{
+    background-color: #f5f5f5;
+    height: 950px;
+    padding-top: 96px;
+    margin-top: 130px;
+}
+
+.pourquoi{
+    display: flex;
+    gap: 80px;
+    position: relative;
+    top: 50px;
+    margin-left: 90px;
+    margin-right: 90px;
+    text-align: center;
+}
+.pour{
+    background-color: white;
+    border-radius: 3px;
+    width: 250px;
+    height: 250px;
+}
+.pour1{
+    background-color: white;
+    border-radius: 3px;
+    width: 250px;
+    height: 250px;
+}
+.pour2{
+    background-color: white;
+    border-radius: 3px;
+    width: 250px;
+    height: 250px;
+}
+.pour3{
+    background-color: white;
+    border-radius: 3px;
+    width: 250px;
+    height: 250px;
+}
+section .pourquoi div:hover{
+    background-color: rgb(183, 194, 223);
+    color: #dddcdc;
+    font-weight: bold;
+    border-radius: 3px;
+    box-shadow: 0px 4px 4px 4px rgb(149, 146, 153);
+}
+
+.pourquoi2{
+    display: flex;
+    gap: 80px;
+    position: relative;
+    top: 50px;
+    margin-left: 90px;
+    margin-right: 90px;
+    text-align: center;
+}
+.pour4{
+    background-color: white;
+    border-radius: 3px;
+    width: 250px;
+    height: 250px;
+}
+.pour5{
+    background-color: white;
+    border-radius: 3px;
+    width: 250px;
+    height: 250px;
+}
+.pour6{
+    background-color: white;
+    border-radius: 3px;
+    width: 250px;
+    height: 250px;
+}
+.pour7{
+    background-color: white;
+    border-radius: 3px;
+    width: 250px;
+    height: 250px;
+}
+section .pourquoi2 div:hover{
+    background-color:rgb(183, 194, 223);
+    color: #dddcdc;
+    font-weight: bold;
+    border-radius: 3px;
+    box-shadow: 0px 4px 4px 4px rgb(149, 146, 153);
+}
+
+.button3{
+    position: relative;
+    top: 90px;
+    margin-left: 601px;
+    width: 200px;
+    height: 40px;
+    background-color: #002a40;
+    border-radius: 5px;
+    color: #dddcdc;
+}
+
+#h1{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 200px;
+    line-height: 23px;
+    color: #ffffffb3;
+}
+#h2{
+    margin-left: 90px;
+    line-height: 23px;
+    color: white;
+    text-decoration: none;
+    
+}
+#h5{
+    width: 950px; 
+    margin-left: 150px;
+}
+#h6{
+   text-align: center;
+   margin-top: 50px;
+   color: #ffffffb3;
+}
+#h7{
+    height: 480px;
+    border: 1px rebeccapurple solid;
+    background-color: #002a40;
+    margin-top: 60px;
+}
